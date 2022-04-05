@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function () {//correccion
     //FUNCIÓN TOOLTIPS
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
@@ -11,7 +11,7 @@ $(document).ready(function () {
     });
 
     //FUNCIÓN CAMBIO COLOR DE TÍTULO (DOUBLE CLICK)
-    $('h4').on("dblclick", function () {
+    $('h4').on("dblclick", function () { //Correccion
         $(this).css("color", "#dc3545");
     });
 
