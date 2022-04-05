@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+/*BARRA NAV*/
+.logo-nav{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+/*HEADER*/
+header img{
+    width: 34.2rem;
+    height: 25rem;
+}
+
+hr {
+    border-top: 2px solid rgba(0,0,0,1);
+}
+
+.hr-pre-header{
+    display:none;
+}
+
+header h1,
+header h5{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .container{
+    padding-top: 3rem;
+}
+
+.sub-header{
+    margin-top: 3rem;
+}
+
+/*CAROUSEL*/
+.img-carousel{
+    width: 16.5rem;
+    height: 13rem;
+}
+#btn-indicador{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    position:inherit;
+}
+.active{
+    color:#000000;
+}
+
+/*SECTION RECETA PREPARACIÓN*/
+.ingredientes-preparacion{
+    padding-bottom: 3rem;
+}
+
+.titulo-receta{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.margin-parrafo{
+    padding-bottom: 2rem;;
+}
+
+/*SECTION RECETAS*/
+.recetas{
+    padding-bottom: 4rem;
+}
+
+.recetas h2{
+    text-transform:uppercase;
+    font-weight: 700;
+    color: #373A3C;
+}
+
+/*SECTION SUSCRIPTION*/
+.suscription{
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+    color: #ffffff;
+    background-color: #DC3545;
+}
+
+.suscription h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.suscription p{
+    font-size: 1.45rem;
+}
+
+.sus-ricomida{
+    font-family: 'Lobster', cursive;
+    font-size: 1.4rem;
+}
+
+.btn-suscripcion{
+    margin-top: 3rem;
+}
+
+/*FOOTER*/
+.footer-ricomida{
+    color:#ffffff;
+    background-color: #373A3C;
+}
+.footer-ricomida h2{
+    font-family: 'Lobster', cursive;
+}
+
+/*MEDIA QUERY*/
+@media (max-width: 768px) {    
+    /*HEADER*/
+    header{
+        text-align: center;
+    }
+    .logo-nav{
+        padding-left: 1.5rem;
+        font-size: 3rem !important;
+    }
+    header img{
+        width: 15rem;
+        height: 12rem;
+    }
+    header .sub-header{
+        margin-top: 1rem;
+    }
+    header .sub-header-dos{
+        padding-top: 1rem;
+    }
+
+    /*SECTION INGREDIENTES-PREPARACÓN*/
+    .ingredientes-preparacion{
+        margin-top: 1.5rem !important;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    .titulo-receta{
+        padding-bottom: 1.5rem;
+    }
+
+    li{
+        padding-bottom: .3rem;
+    }
+    .preparacion-title{
+        padding-top: 2.3rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .receta-preparacion p{
+        padding-bottom: 1.3rem !important;
+    }
+
+    /*SECTION RECETAS RELACIONADAS*/
+    .titulo-recetas-relacionadas{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .recetas, .card, .receta{
+        padding-bottom: 2rem !important;
+    }
+
+    /*SECTION SUSCRIPCIÓN*/
+    .suscription{
+        padding-bottom: 7rem;
+    }
+    .btn-suscripcion{
+        padding-top: 1rem;
+    }
+
+    /*FOOTER*/
+    .footer-ricomida{
+        padding-top: 2.3rem !important;
+        text-align: center;
+    }
+    footer h2{
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+}
